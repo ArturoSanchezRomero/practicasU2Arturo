@@ -1,0 +1,37 @@
+#info{
+    background: #051367;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#info .contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.infoMini{
+    margin: 20px;
+}
+
+.infoMini img{
+    width: 200px;
+    height: 180px;
+    border-radius: 10%;
+    border: 5px solid #2D31FA;
+}
+
+@media (min-width:480px) {
+    .info-car{
+        width: 40%;
+    }
+    
+}
+@media (min-width:1024px) {
+    .info-car{
+        width: auto;
+    }
+    
+}

@@ -1,0 +1,113 @@
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-repeat:repeat-y; /*no-repeat;*/
+    /*background-size:300px 180px;*/
+}
+
+p{
+  margin-left: 300px;
+}
+
+h1{
+  text-align:center;
+  font-size: 150%;
+}
+
+
+
+#mexico{
+  color:green;
+}
+
+#londres{
+  color:red;
+}
+
+#paris{
+  color:blue;
+}
+
+#tokyo{
+  color:FireBrick;
+}
+#EU{
+  color:brown;
+}
+
+.banderaMex{
+  background-image: url("../img/mexico.jpg");
+  }
+.banderaLon{
+  background-image: url("../img/londres.jpg");
+}
+.banderaPar{
+  background-image: url("../img/paris.jpg");
+}
+.banderaTok{
+  background-image: url("../img/tokyo.jpg");
+}
+.banderaEU{
+  background-image: url("../img/estadosunidad.png");
+}
+
+body{
+  background-image: url("../img/paisesfondo.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+
+.paises{
+  width: 200px;
+  height: 200px;
+  background-image: url("../img/paises.jpg");
+  background-position: center;
+}
+
+
+ul {
+  list-style-type: none;/*desactiva viñetas*/
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /*Especifica qué sucede si el contenido
+  del cuadro de un elemento se desborda */
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { /*Cuando pasa el mouse sobre el elemento*/
+  background-color: #f1d517;
+  color:#333;
+}
+
+li a:active { /*Cuando da click en el mouse */
+  background-color: #609acf;
+  font-size: 120%;
+}
